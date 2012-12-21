@@ -1,4 +1,3 @@
-require 'rubygems'
 require 'trollop'
 
 Dir[File.dirname(__FILE__) + '/classes/*.rb'].each {|file| require file }

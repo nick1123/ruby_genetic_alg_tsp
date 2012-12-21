@@ -17,7 +17,7 @@ It's not as pretty as some but its functional.
 
 Checkout the options
 
-    ruby driver.rb -h
+    bundle exec ruby driver.rb -h
 	Options:
 	   --divergence-min, -d <f>:   Level of divergence needed to stop (default: 0.01)
 	     --cities-count, -c <i>:   How many cities are we solving for? (5 - 62) (default: 62)
@@ -29,7 +29,7 @@ Checkout the options
 
 Run with default params
 
-    ruby driver.rb
+    bundle exec ruby driver.rb
 
 Run a few tests
 
