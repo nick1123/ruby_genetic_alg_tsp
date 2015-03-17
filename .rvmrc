@@ -1,1 +1,1 @@
-rvm use ruby-1.9.2-p290@ruby-gene-alg --create
+rvm use ruby-2.0.0-p353@ruby-gene-alg --create
