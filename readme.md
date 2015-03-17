@@ -20,7 +20,7 @@ Checkout the options
     bundle exec ruby driver.rb -h
 	Options:
 	   --divergence-min, -d <f>:   Level of divergence needed to stop (default: 0.01)
-	     --cities-count, -c <i>:   How many cities are we solving for? (5 - 62) (default: 62)
+	     --cities-count, -c <i>:   How many cities are we solving for? (5 - 62) (default: 26)
 	  --solutions-count, -s <i>:   How many solutions are in a population? Must be an integer >= 8 && divisible by 4 (default: 40)
 	   --iterations-min, -i <i>:   How many iterations before we can possibly stop (if divergence is low enough) (default: 1000)
 	   --iterations-max, -t <i>:   After this many iterations we stop looking for better solutions (default: 5000)
